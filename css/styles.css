@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+body#HOME{
+	background-image: url("../assets/mars.svg");
+}
+body#ABOUT{
+	background-image: url("../assets/mars.svg");
+}
+body#OUTER{
+	background-image: url("../assets/neptune.svg");
+}
+body#INNER{
+	background-image: url("../assets/venus.svg");
+}
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center
+}
+
+#title{
+	
+    font-family: "Saira Extra Condensed";
+    font-size: 50pt;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+#buttons{
+	width: 60%;
+	background-color: rgb(44, 53, 57);
+	margin: auto;
+	text-align: center;
+	display: inline;
+	
+}
+
+#navbar li{
+	display: inline;
+	width: 60%;
+	padding: 0%;
+}
+#header{
+	background-color: black;
+    text-align: center;
+    display: inline;
+    padding: 40px;
+}
+.mbtn{
+	width: 15%;
+	height: 10%;
+	margin: 0%;
+	font-size: 15pt;
+}
+#main{
+	width: 70%;
+	margin: auto;
+	border-style: border-box;
+	background-color: white;
+}
+#main #para{
+	font-style: italic;
+}
+
+#video{
+	width: 40%;
+	height: 60%;
+	margin-left: 30%;
+}
+
+@media only screen and (min-width: 500px){
+	#army{
+		float: left;
+		margin-left: 10%;
+		width: 30%;
+		overflow: auto;
+	}
+	#units li{
+		display: inline;
+	}
+	.ubtn{
+		width: 32%;
+		height: 20%;
+		margin: 0%;
+		font-size: 10pt;
+	
+	}
+	#available{
+		float: right;
+		width: 40%;
+		overflow: auto;
+		
+	}
+	#available ul{
+		float: right;
+		overflow: auto;
+		height: 60%;
+	}
+	#available li .abtn{
+		height: 20%;
+		width: 40%;
+	}
+	#available li .abtn img{
+		width: 50%;
+		height: auto;
+	}
+	.ubtn img{
+		height: 100%;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 500px){
+	#buttons{
+		width: 30%;
+	}
+	.mbtn{
+		font-size: 7pt;
+	}
+	.ubtn{
+		font-size: 5pt;
+	}
+	#title{
+		font-size: 10pt;
+	}
+	#available{
+		width: 100%;
+		overflow: auto;
+	
+	}
+	#available ul{
+		overflow: auto;
+		height: 30%;
+		width: 20%;
+	}
+	#available li .abtn{
+		display: inline;
+		height: 10%;
+		width: 8%;
+	}
+	#available li .abtn img{
+		width: 100%;
+		height: auto;
+	}
+	#army{
+		width: 100%;
+		overflow: auto;
+	}
+	#units li{
+		display: inline;
+	}
+	.ubtn{
+		width: 32%;
+		height: 10%;
+		margin: 0%;
+		font-size: 10pt;
+	
+	}
+	
+}
