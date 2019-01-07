@@ -52,3 +52,8 @@ $(".ubtn").mouseout(function(event){
 	$(this).css('color', '#000000');
 	
 });
+$("#check").click(function(event){
+	event.preventDefault();
+	window.alert("Thank-you for placing an order!");
+	
+});
